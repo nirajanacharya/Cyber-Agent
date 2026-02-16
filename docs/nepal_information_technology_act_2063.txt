@@ -1,0 +1,115 @@
+NEPAL'S INFORMATION TECHNOLOGY ACT, 2063 (2006)
+
+This Act establishes the legal framework for information technology, electronic transactions, and cybersecurity in Nepal.
+
+KEY PROVISIONS:
+
+Section 1: Scope and Application
+- Applies to the use of information technology in Nepal
+- Covers electronic records and digital signatures
+- Establishes framework for cybercrime and penalties
+
+Section 2: Definition of Terms
+- Information Technology: Technology relating to computer systems, networks, and digital data
+- Cybercrime: Illegal activities conducted using computer systems or networks
+- Electronic Record: Data stored, generated, or transmitted in digital form
+- Digital Signature: Electronic signature meeting prescribed standards
+
+Section 3: Validity of Electronic Records
+- Electronic records are recognized as legally valid evidence
+- Digital signatures are equivalent to handwritten signatures when properly applied
+- Electronic transactions have same legal validity as paper-based transactions
+
+Section 4: Unauthorized Access to Computer Systems
+- Illegal access to computer systems is prohibited
+- Penalty: Fine up to NPR 10,000 and/or imprisonment up to 1 year
+- Accessing protected systems without authorization is cybercrime
+
+Section 5: Data Theft and Unauthorized Copying
+- Stealing or copying data from computer systems is prohibited
+- Includes intellectual property and confidential information theft
+- Penalty: Fine up to NPR 100,000 and/or imprisonment up to 3 years
+
+Section 6: Computer Fraud
+- Using computers to commit fraud is prohibited
+- Includes manipulation of data, false records, and deceptive transactions
+- Penalty: Fine up to NPR 50,000 and/or imprisonment up to 2 years
+
+Section 7: Malware and Harmful Software
+- Creating, distributing, or using viruses, worms, and malware is prohibited
+- Includes ransomware and other malicious code
+- Penalty: Fine up to NPR 100,000 and/or imprisonment up to 3 years
+
+Section 8: Hacking and System Disruption
+- Unauthorized interference with computer systems is prohibited
+- Includes network disruption, DDoS attacks, and system tampering
+- Penalty: Fine up to NPR 100,000 and/or imprisonment up to 3 years
+
+Section 9: Obscene Content Online
+- Distributing or possessing obscene content is prohibited
+- Includes child exploitation material (CSAM)
+- Penalty: Fine up to NPR 100,000 and/or imprisonment up to 5 years
+
+Section 10: Privacy and Data Protection
+- Unauthorized access to private communications is prohibited
+- Email interception and wiretapping are illegal
+- Penalty: Fine up to NPR 50,000 and/or imprisonment up to 2 years
+
+Section 11: Digital Signature Standards
+- Digital signatures must meet prescribed technical standards
+- Use of certified digital signatures is legally valid
+- Signature verification through certified authorities is required
+
+Section 12: Electronic Document Retention
+- Electronic documents must be retained for legal compliance
+- Long-term archiving standards must be followed
+- Electronic records serve as valid legal evidence
+
+OFFENSE CATEGORIES:
+
+1. Critical Infrastructure Attacks (Highest Severity)
+   - Attacking government or essential services systems
+   - Penalty: Fine up to NPR 500,000 and/or imprisonment up to 10 years
+
+2. Cyber Terrorism and National Security
+   - Acts threatening national security through cyber means
+   - Coordinated attacks on critical systems
+   - Penalty: Up to life imprisonment
+
+3. Financial Cybercrime
+   - Online banking fraud and transaction manipulation
+   - Digital payment system fraud
+   - Penalty: Fine equal to 3x fraud amount + imprisonment
+
+4. Privacy Violations
+   - Unauthorized access to personal data
+   - Misuse of private information
+   - Penalty: Fine up to NPR 100,000 + imprisonment up to 3 years
+
+INVESTIGATIVE POWERS:
+
+- Police can investigate cybercrime with technical expertise
+- Court orders required for accessing encrypted data
+- ISPs and telecom companies must preserve logs for authorities
+- International cooperation for cross-border cybercrimes
+
+LEGAL PROTECTIONS:
+
+- Users have right to secure digital transactions
+- Data protection and privacy rights recognized
+- Victims of cybercrime can file complaints
+- Compensation available for cybercrime victims
+- Confidentiality of investigation sources protected
+
+IMPORTANT NOTES FOR USERS:
+
+1. Always use strong passwords and two-factor authentication
+2. Do not share personal information online unnecessarily
+3. Be cautious of phishing emails and suspicious links
+4. Keep software and systems updated with latest security patches
+5. Do not attempt to access systems without authorization
+6. Report cybercrime to Nepal Police Cyber Bureau
+7. Use licensed cybersecurity services for business systems
+8. Maintain backup copies of important data
+9. Use VPN for secure browsing in public networks
+10. Never attempt to help hackers or provide hacking services

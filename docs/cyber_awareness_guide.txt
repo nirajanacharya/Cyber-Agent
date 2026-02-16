@@ -1,0 +1,352 @@
+CYBER AWARENESS GUIDE: COMMON THREATS AND PROTECTION
+
+This document provides practical cyber awareness information to help protect against common online threats.
+
+SECTION 1: PHISHING ATTACKS
+
+What is Phishing?
+Phishing is a social engineering attack where attackers impersonate legitimate organizations to steal credentials, personal information, or money. Attacks typically use fake emails, websites, or messages.
+
+Common Phishing Tactics:
+1. Fake Banking Sites - Criminals create fake bank websites to capture login credentials
+2. Email Impersonation - Emails appearing to be from banks, government, or trusted companies
+3. Urgent Action Required - "Verify account", "Confirm identity", "Update payment method"
+4. Malicious Links - Links to infected websites or credentials-stealing pages
+5. Attachments - Emails with infected PDF, Word, or Excel files
+6. SMS/Messaging Phishing (Smishing) - Text messages asking to click links or call numbers
+7. Phone Phishing (Vishing) - Phone calls impersonating banks or organizations
+
+How to Identify Phishing:
+- Check sender email address carefully (may be spoofed domain)
+- Look for generic greetings ("Dear Customer" instead of your name)
+- Poor grammar and spelling errors
+- Urgent language creating pressure to act quickly
+- Requests for passwords, credit card, or sensitive information
+- Links that don't match the organization's domain
+- Threatening language about account closure
+- Requests to update payment information
+- Misspelled URLs in links (e.g., amaz0n.com instead of amazon.com)
+- Unable to verify organization's contact information
+
+Protection Against Phishing:
+1. Verify sender identity independently (call official number)
+2. Don't click links in emails - go directly to official website
+3. Check website SSL certificate (look for lock icon)
+4. Use strong, unique passwords for each account
+5. Enable two-factor authentication
+6. Keep browser and security software updated
+7. Use email filters and spam detection
+8. Report phishing emails to organization and authorities
+9. Be suspicious of unexpected emails requesting information
+10. Never share passwords, PIN, or OTP with anyone
+
+SECTION 2: MALWARE AND RANSOMWARE
+
+What is Malware?
+Malware is malicious software designed to harm, exploit, or compromise your system, data, or privacy. Types include viruses, worms, trojans, spyware, adware, and ransomware.
+
+Types of Malware:
+1. Viruses - Attach to programs and spread when executed
+2. Worms - Self-replicating programs that spread without user action
+3. Trojans - Disguised as legitimate programs but contain harmful code
+4. Ransomware - Encrypts files and demands payment for decryption key
+5. Spyware - Monitors and steals personal information
+6. Adware - Forces unwanted advertisements and redirects browsing
+7. Keyloggers - Records keyboard inputs to steal passwords and data
+8. Rootkits - Provides attacker administrative access to system
+9. Botnets - Infected computers controlled remotely by attackers
+10. Cryptominers - Uses system resources to mine cryptocurrency
+
+Ransomware Special Threat:
+- Locks or encrypts all files on infected system
+- Attacker demands payment for decryption key
+- Often threatens to publish stolen data if payment not made
+- Can spread to connected networks and backup systems
+- Business can lose critical data and operations
+
+How Systems Get Infected:
+- Opening infected email attachments
+- Clicking malicious links in emails or websites
+- Downloading software from untrusted sources
+- Using infected USB drives or external storage
+- Visiting compromised websites
+- Outdated software with known vulnerabilities
+- Poor security practices and weak passwords
+
+Protection Against Malware:
+1. Use reputable antivirus and anti-malware software
+2. Keep Windows and Mac operating systems updated
+3. Update all software and applications regularly
+4. Use firewall on computers and networks
+5. Download software only from official sources
+6. Don't open suspicious email attachments
+7. Be cautious of unexpected downloads
+8. Don't enable macros in documents unless necessary
+9. Use strong passwords and multi-factor authentication
+10. Regular backups on separate storage (not connected to network)
+11. Educate users about malware risks
+
+If Infected:
+1. Disconnect from network immediately
+2. Shut down computer to prevent spread
+3. Use secure device to report to cybersecurity professional
+4. Do not pay ransom (no guarantee of decryption)
+5. Contact law enforcement
+6. Restore from clean backup if available
+7. Change all passwords from secure device
+8. Monitor accounts for fraudulent activity
+
+SECTION 3: WEAK PASSWORDS AND CREDENTIAL THEFT
+
+Password Risks:
+- Weak passwords can be cracked in seconds
+- Reused passwords compromise multiple accounts if one is breached
+- Shared passwords are easily compromised
+- Written down passwords are vulnerable to physical theft
+- Default passwords on devices are well-known to attackers
+
+Creating Strong Passwords:
+- Minimum 12-16 characters (longer is better)
+- Mix of uppercase letters (A-Z), lowercase (a-z), numbers (0-9), symbols (!@#$%)
+- Avoid personal information (names, birthdays, phone numbers)
+- Avoid dictionary words and common phrases
+- Don't use keyboard patterns (qwerty, 12345)
+- Make it random and memorable only to you
+- Change passwords when account is compromised
+- Don't reuse old passwords
+
+Password Management:
+1. Use password manager to generate and store strong passwords
+2. Enable two-factor authentication when available
+3. Don't share passwords with anyone
+4. Don't write passwords down or store in email
+5. Use different password for each important account
+6. Change passwords periodically (especially for critical accounts)
+7. Check accounts for unauthorized login attempts
+
+Example Strong Passwords:
+- P@ss#2024Nepal!Cyber
+- Blue$Tiger*42Ocean@Lab
+- Coffee!Rain#2024Secure9
+
+SECTION 4: PUBLIC WI-FI SECURITY
+
+Public Wi-Fi Risks:
+- Unencrypted networks allow packet sniffing
+- Attackers can intercept passwords and sensitive data
+- Man-in-the-middle attacks on unsecured connections
+- Compromised devices sharing network can spread malware
+- Fake Wi-Fi hotspots ("Evil Twin") mimicking legitimate networks
+
+Using Public Wi-Fi Safely:
+1. Only use public Wi-Fi from trusted sources (cafes, hotels)
+2. Use VPN to encrypt all traffic
+3. Avoid sensitive transactions (banking, passwords) on public Wi-Fi
+4. Turn off automatic connection to known networks
+5. Disable file sharing and AirDrop on your device
+6. Use HTTPS websites only (look for lock icon)
+7. Keep firewall enabled
+8. Use two-factor authentication on all accounts
+9. Check network name with establishment (verify SSID)
+10. Avoid downloading large files on public Wi-Fi
+
+SECTION 5: SOCIAL ENGINEERING AND MANIPULATION
+
+Social Engineering Tactics:
+1. Pretexting - Creating false scenario to gain trust
+2. Baiting - Offering something enticing (free USB, reward)
+3. Tailgating - Following authorized person into restricted area
+4. Phishing - Already covered (see Section 1)
+5. Vishing - Phone calls impersonating authority figures
+6. Quid Pro Quo - Offering benefit in exchange for information
+7. Authority Impersonation - Pretending to be manager or authority
+8. Scarcity - Creating false urgency ("Limited time offer")
+9. Familiarity - Building relationship before requesting favor
+10. Reverse Social Engineering - Getting target to call attacker
+
+Protection:
+1. Verify identity independently before sharing information
+2. Don't assume email sender is who they claim
+3. Be suspicious of urgent requests
+4. Question unusual requests for information
+5. Follow established procedures even under pressure
+6. Educate employees about manipulation tactics
+7. Report suspicious requests to management
+8. Use security awareness training
+9. Implement least privilege access principle
+10. Monitor for unusual account activity
+
+SECTION 6: ONLINE PRIVACY PROTECTION
+
+Personal Information Risks:
+- Data brokers collect and sell personal information
+- Social media sharing enables identity theft
+- Websites track browsing habits for advertising
+- Location tracking enables physical stalking
+- Medical and financial information is highly valuable
+
+Protecting Privacy:
+1. Limit information shared on social media
+2. Review privacy settings on social platforms
+3. Use strong passwords on all accounts
+4. Enable privacy modes in browsers
+5. Use VPN to hide IP address and location
+6. Disable location services when not needed
+7. Be cautious of "free" services (you are the product)
+8. Review app permissions on phones
+9. Read privacy policies before sharing information
+10. Request data deletion from data brokers
+11. Use separate email for sensitive accounts
+12. Don't use real name on casual accounts
+13. Avoid oversharing personal details online
+
+SECTION 7: FINANCIAL CYBERSECURITY
+
+Online Banking Safety:
+1. Only use official bank website or app
+2. Never share online banking credentials with anyone
+3. Use strong, unique password for banking account
+4. Enable multi-factor authentication
+5. Verify SSL certificate (lock icon) before logging in
+6. Use private, secure network (not public Wi-Fi)
+7. Log out after each session
+8. Check account regularly for unauthorized transactions
+9. Review transaction history monthly
+10. Enable account alerts for suspicious activity
+
+E-commerce Security:
+- Only shop on secure websites (HTTPS, lock icon)
+- Use credit card instead of debit card (better fraud protection)
+- Create separate email for online shopping
+- Use strong passwords for shopping accounts
+- Don't save credit card information on websites
+- Be cautious of too-good-to-be-true prices
+- Verify seller reputation and reviews
+- Use secure payment methods (credit card, PayPal)
+- Check for unauthorized transactions
+
+Cryptocurrency Security:
+1. Use reputable exchanges and wallets
+2. Enable two-factor authentication
+3. Never share private keys or seed phrases
+4. Use cold storage for large amounts
+5. Verify recipient address before sending
+6. Be cautious of investment scams
+7. Keep software updated
+8. Use hardware wallets for security
+9. Never respond to unsolicited investment offers
+10. Research before investing
+
+SECTION 8: SECURE COMMUNICATION
+
+Email Security:
+1. Use encrypted email for sensitive communications
+2. Don't forward sensitive information unnecessarily
+3. Be cautious of file attachments
+4. Verify sender identity before opening attachments
+5. Use email signatures to authenticate identity
+6. Enable email encryption when available
+7. Use secure email providers with privacy focus
+8. Don't reply to phishing emails
+9. Report phishing to email provider
+10. Use strong password for email account
+
+Messaging Apps:
+- Use end-to-end encrypted messaging (WhatsApp, Signal, Telegram)
+- Verify contact identity through call or video
+- Don't send sensitive financial information via messaging
+- Be cautious of groups you're added to
+- Verify file sources before opening
+- Use secure backup methods
+- Be aware of read receipts and typing indicators
+
+Video Conferencing:
+1. Use password-protected meetings
+2. Don't share meeting links publicly
+3. Verify participant identity
+4. Use reputable platforms with security features
+5. Disable recording unless necessary
+6. Be cautious of background information visible
+7. Update video conferencing software regularly
+8. Use virtual backgrounds for privacy
+9. Don't attend unsolicited meeting links
+10. Enable waiting room for better security
+
+SECTION 9: MOBILE DEVICE SECURITY
+
+Smartphone Protection:
+1. Use strong PIN or biometric lock
+2. Enable remote wipe capability
+3. Keep operating system updated
+4. Only install apps from official stores
+5. Review app permissions before installation
+6. Use antivirus app
+7. Enable automatic screen lock
+8. Avoid rooting or jailbreaking devices
+9. Use Find My Device to locate lost phone
+10. Backup important data regularly
+
+App Security:
+- Only download from Google Play or Apple App Store
+- Check app permissions and reviews
+- Look for legitimate developer information
+- Avoid third-party app stores
+- Uninstall unused apps
+- Use app permission manager
+- Be cautious of free apps (review privacy policy)
+- Keep apps updated
+
+Mobile Payment Security:
+1. Use official banking app not mobile web
+2. Enable mobile payment security features
+3. Use strong PIN for mobile payments
+4. Monitor transaction history
+5. Don't respond to OTP requests you didn't initiate
+6. Use separate PIN for payments
+7. Turn off NFC when not needed
+8. Only use trusted payment apps
+
+SECTION 10: INCIDENT RESPONSE AND REPORTING
+
+If You Suspect Compromise:
+1. Change passwords immediately (from secure device)
+2. Enable two-factor authentication
+3. Monitor accounts for unauthorized activity
+4. Check connected devices for infections
+5. Review account access logs
+6. Contact financial institutions
+7. Report to cybersecurity authorities
+8. Preserve evidence for investigation
+9. Seek professional cybersecurity help if needed
+10. Report to law enforcement for serious crimes
+
+Reporting Cybercrime in Nepal:
+- Nepal Police Cyber Bureau (for crimes)
+- District Police stations (general complaints)
+- Nepal Telecommunications Authority (for telecom fraud)
+- Central Bank (for financial cybercrimes)
+- Organizations' legal departments (for civil remedies)
+
+Information to Report:
+1. Detailed description of incident
+2. Timeline of events
+3. Affected systems and data
+4. Screenshots or evidence
+5. Communication records with attackers
+6. Demands or threats
+7. Contact information
+8. Previous similar incidents
+
+Protecting Against Future Incidents:
+- Implement lessons learned
+- Improve security measures
+- Update security policies
+- Conduct security training
+- Test incident response procedures
+- Monitor for similar attacks
+- Stay informed about new threats
+- Maintain security updates and patches
+- Backup data regularly
+- Review insurance coverage
+
+Remember: Cybersecurity is everyone's responsibility. Stay informed, stay cautious, and stay secure!

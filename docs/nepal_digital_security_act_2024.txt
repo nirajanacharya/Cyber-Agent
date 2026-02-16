@@ -1,0 +1,279 @@
+NEPAL'S DIGITAL SECURITY ACT, 2024
+
+This is Nepal's comprehensive cybersecurity legislation addressing modern digital threats, data protection, and cyber incident response.
+
+OVERVIEW:
+
+The Digital Security Act, 2024 modernizes Nepal's cybersecurity framework to address evolving threats including:
+- Ransomware attacks and data breaches
+- Cloud security and data protection
+- IoT security and smart device vulnerabilities
+- Critical infrastructure protection
+- Personal data protection and privacy rights
+- AI and machine learning security
+- Incident response and breach reporting
+
+CHAPTER 1: DEFINITIONS AND SCOPE
+
+Article 1: Applicability
+- Applies to all digital systems and networks in Nepal
+- Covers both government and private sector organizations
+- Includes individuals using digital services
+- Applies to Nepal-based organizations and international organizations serving Nepal
+
+Article 2: Key Definitions
+- Digital Security: Protection of information and systems from unauthorized access, use, disclosure, modification, or destruction
+- Cyber Incident: Unauthorized access, data breach, malware infection, or system disruption
+- Critical Information Infrastructure: Systems essential to national security, economy, or public services
+- Personal Data: Information related to identified or identifiable individuals
+- Data Controller: Organization determining purposes and means of data processing
+- Data Processor: Organization processing data on behalf of controller
+
+CHAPTER 2: DATA PROTECTION AND PRIVACY
+
+Article 3: Data Protection Rights
+- Every individual has right to privacy and data protection
+- Personal data collection must be lawful and transparent
+- Data must be used only for stated purposes
+- Individuals have right to access their personal data
+- Right to correction, deletion, and portability of data
+
+Article 4: Consent Requirements
+- Explicit consent required before collecting personal data
+- Consent must be freely given, specific, and informed
+- Cannot collect personal data without consent (limited exceptions for government)
+- Children's data requires parental consent
+- Sensitive data (health, financial, biometric) requires higher protection
+
+Article 5: Data Minimization
+- Only collect data actually needed for stated purpose
+- Do not collect excessive personal information
+- Delete data when no longer needed
+- Implement data retention schedules
+- Cannot share data with third parties without consent
+
+Article 6: Security Standards
+- Implement technical and organizational security measures
+- Protect data with encryption and access controls
+- Conduct regular security audits and penetration testing
+- Maintain incident response plans
+- Implement backup and disaster recovery procedures
+- Use certified security products and services
+
+Article 7: Data Breach Notification
+- Organizations must report data breaches within 72 hours to authority
+- Notify affected individuals promptly
+- Inform law enforcement and security agencies
+- Provide details of breach scope and remediation measures
+- Public disclosure for breaches affecting many individuals
+
+CHAPTER 3: CYBERSECURITY REQUIREMENTS
+
+Article 8: Mandatory Security Measures for Organizations
+- Implement firewalls and intrusion detection systems
+- Deploy antivirus and anti-malware protection
+- Maintain secure coding practices in software development
+- Implement access controls and authentication mechanisms
+- Conduct regular security training for employees
+- Maintain security incident logs and monitoring
+- Implement incident response and disaster recovery plans
+
+Article 9: Minimum Technical Standards
+- Use encryption for sensitive data (minimum 256-bit for critical systems)
+- Implement multi-factor authentication for administrative access
+- Regular security patching and vulnerability management
+- Network segmentation and isolation of critical systems
+- Secure configuration of systems and applications
+- Removal of default credentials and unnecessary services
+
+Article 10: Third-Party Security
+- Verify security of vendors and service providers
+- Include security requirements in contracts
+- Regular audits of third-party systems
+- Data protection agreements required
+- Liability for third-party security failures
+- Right to inspect and audit third-party systems
+
+CHAPTER 4: CYBERCRIME OFFENSES AND PENALTIES
+
+Article 11: Unauthorized Access
+Offense: Attempting to access computer systems without authorization
+Penalty: Fine up to NPR 200,000 and/or imprisonment up to 2 years
+Aggravated (causing damage): Fine up to NPR 500,000 and/or imprisonment up to 5 years
+
+Article 12: Malware Distribution
+Offense: Creating, distributing, or using viruses, worms, ransomware
+Penalty: Fine up to NPR 300,000 and/or imprisonment up to 3 years
+If causing damage/loss: Fine up to NPR 1,000,000 and/or imprisonment up to 10 years
+
+Article 13: Data Breaches and Theft
+Offense: Stealing, copying, or unauthorized access to personal or confidential data
+Penalty: Fine up to NPR 500,000 and/or imprisonment up to 3 years
+Enhanced penalty for sensitive data (health, financial, biometric)
+
+Article 14: Ransomware Attacks
+Offense: Deploying ransomware or demanding ransom for system restoration
+Penalty: Fine up to NPR 1,000,000 and/or imprisonment up to 5 years
+If threatening national security: Up to 10 years imprisonment
+
+Article 15: Financial Cybercrime
+Offense: Online banking fraud, payment manipulation, cryptocurrency theft
+Penalty: Fine up to 2x the amount stolen + imprisonment
+Maximum 10 years for large-scale fraud
+
+Article 16: Identity Theft and Fraud
+Offense: Using someone's identity or credentials without permission
+Penalty: Fine up to NPR 300,000 and/or imprisonment up to 3 years
+Plus liability for damages caused
+
+Article 17: Phishing and Social Engineering
+Offense: Creating fraudulent websites, phishing emails to steal credentials
+Penalty: Fine up to NPR 200,000 and/or imprisonment up to 2 years
+Enhanced penalty if targeting government or critical infrastructure
+
+Article 18: Denial of Service Attacks
+Offense: DDoS attacks disrupting system availability
+Penalty: Fine up to NPR 500,000 and/or imprisonment up to 3 years
+If disrupting critical infrastructure: Up to 10 years imprisonment
+
+Article 19: Cyber Harassment and Threats
+Offense: Online harassment, cyberbullying, threats, defamation
+Penalty: Fine up to NPR 100,000 and/or imprisonment up to 1 year
+Enhanced penalty for threats to safety or security
+
+Article 20: Non-Consensual Intimate Images
+Offense: Sharing intimate images without consent
+Penalty: Fine up to NPR 500,000 and/or imprisonment up to 3 years
+Victim can seek damages and right to erasure
+
+CHAPTER 5: CRITICAL INFRASTRUCTURE PROTECTION
+
+Article 21: Critical Infrastructure Definition
+- Power generation and distribution systems
+- Water supply and management systems
+- Transportation networks (air, rail, road)
+- Telecommunications and internet infrastructure
+- Healthcare systems and hospitals
+- Financial systems and banks
+- Government administrative systems
+- Emergency services systems
+
+Article 22: Critical Infrastructure Security Requirements
+- Implement air-gapped networks for critical systems
+- Use hardware security modules for key management
+- Conduct regular penetration testing and security audits
+- Implement 24/7 monitoring and incident response
+- Maintain redundancy and failover systems
+- Regular security training for operators
+- Compliance with international cybersecurity standards
+
+Article 23: Attack on Critical Infrastructure
+Offense: Any cyber attack on critical infrastructure
+Penalty: Fine up to NPR 2,000,000 and/or imprisonment up to 15 years
+If causing death/injury: Up to life imprisonment or death penalty
+
+CHAPTER 6: COMPLIANCE AND GOVERNANCE
+
+Article 24: Cybersecurity Authority
+- Nepal to establish Cybersecurity Authority (or through designated agency)
+- Responsibility for policy, standards, and enforcement
+- Coordination with international cybersecurity bodies
+- Technical assistance and capacity building
+
+Article 25: Mandatory Incident Reporting
+- Critical infrastructure operators must report attacks within 24 hours
+- Other organizations must report within 72 hours
+- Include incident details, scope, and remediation
+- Cooperation with law enforcement investigations
+- False reporting is punishable offense
+
+Article 26: Security Audit and Compliance
+- Regular audits required for critical infrastructure (annually)
+- Large organizations must conduct annual security assessments
+- Third-party auditors must be certified
+- Audit reports submitted to Cybersecurity Authority
+- Non-compliance results in fines and penalties
+
+Article 27: Government Systems
+- All government systems must comply with Digital Security Act
+- Enhanced security for classified and sensitive information
+- Regular testing and disaster recovery drills
+- Security training for all government employees
+- Designated Chief Information Security Officer (CISO)
+
+CHAPTER 7: INVESTIGATION AND ENFORCEMENT
+
+Article 28: Investigation Authority
+- Nepal Police has authority to investigate cybercrimes
+- Court warrants required for system access and data seizure
+- Digital evidence must follow chain of custody procedures
+- International cooperation for cross-border investigations
+
+Article 29: Law Enforcement Access
+- Emergency access to systems without warrant in critical situations
+- Post-event judicial review within 24 hours
+- ISPs must preserve logs for 1 year minimum
+- Cooperation with law enforcement is mandatory
+
+Article 30: Penalties and Fines
+- Summary: NPR 100,000 - NPR 2,000,000 depending on offense
+- Imprisonment: 1 - 15 years depending on severity
+- Confiscation of equipment and proceeds of crime
+- Victim compensation for damages
+
+CHAPTER 8: INTERNATIONAL COOPERATION
+
+Article 31: Cross-Border Investigations
+- Nepal cooperates with international cybersecurity bodies
+- Mutual legal assistance agreements with other countries
+- Joint task forces for major cybercrimes
+- Information sharing with international partners
+- Harmonization with international cybersecurity standards
+
+PRACTICAL GUIDANCE FOR USERS:
+
+1. PERSONAL CYBERSECURITY:
+   - Use strong, unique passwords for each account
+   - Enable two-factor authentication on important accounts
+   - Keep devices updated with latest security patches
+   - Use reputable antivirus and anti-malware software
+   - Be cautious of phishing emails and suspicious links
+   - Do not share personal information unnecessarily
+   - Use VPN for secure browsing in public networks
+   - Backup important data regularly
+
+2. ORGANIZATIONAL CYBERSECURITY:
+   - Designate a cybersecurity officer
+   - Implement security awareness training for all employees
+   - Maintain security incident logs and monitoring
+   - Conduct regular security audits and assessments
+   - Implement access controls and authentication
+   - Encrypt sensitive data
+   - Maintain incident response and disaster recovery plans
+   - Establish data protection policies
+   - Vet third-party vendors and service providers
+
+3. INCIDENT RESPONSE:
+   - If compromised: Disconnect from network immediately
+   - Change all passwords from secure device
+   - Report to cybersecurity authority within 72 hours
+   - Preserve evidence for law enforcement
+   - Notify affected individuals and stakeholders
+   - Seek professional cybersecurity assistance
+   - Consider cyber insurance coverage
+
+4. REPORTING CYBERCRIMES:
+   - Contact Nepal Police Cyber Bureau
+   - File complaints with appropriate authorities
+   - Provide detailed incident information and evidence
+   - Cooperate with law enforcement investigations
+   - Seek legal counsel for civil remedies
+
+5. LEGAL RIGHTS:
+   - Right to privacy and data protection
+   - Right to access personal data held by organizations
+   - Right to correction and deletion of inaccurate data
+   - Right to know how data is being used
+   - Right to compensation for data breaches
+   - Right to report cybercrime to authorities
+   - Right to legal action against perpetrators

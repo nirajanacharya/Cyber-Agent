@@ -1,7 +1,4 @@
-"""
-Cyber Sachet Agent - Demo Script
-Demonstrates the RAG-based agent for cyber security and Nepal cyber law queries
-"""
+
 
 import asyncio
 import os

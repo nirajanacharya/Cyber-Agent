@@ -1,20 +1,31 @@
 # Cyber Sachet
 
-Cyber Sachet is an AI assistant focused on cyber security awareness and Nepal cyber law guidance. It answers user questions with retrieval-augmented generation (RAG), cites sources from a local knowledge base, tracks usage with monitoring, and includes a full evaluation pipeline with human labels and an LLM judge.
+Cyber Sachet is a bilingual AI assistant focused on cyber security awareness and Nepal cyber law guidance. It answers user questions in English and Nepali with retrieval-augmented generation (RAG), cites sources from a local knowledge base, tracks usage with monitoring, and includes a full evaluation pipeline with human labels and an LLM judge.
 
-## Problem Description
+## Problem Statement: Current Condition in Nepal
 
-Many users in Nepal need practical cyber safety advice and simple explanations of legal consequences for cybercrime, but information is scattered, technical, or hard to trust.
+Nepal is experiencing rapid digital adoption through smartphones, social media, digital payments, online services, and remote communication. This has improved access and convenience, but it has also expanded the cyber risk surface for everyday users, students, small businesses, and first-time internet users.
+
+Current on-ground challenges include:
+- low practical awareness of phishing, account takeover, social engineering, and online fraud patterns,
+- fragmented and inconsistent cyber safety guidance across sources,
+- legal confusion around what is punishable under Nepal cyber law,
+- language accessibility gaps where many users understand advice better in Nepali than in English-only technical explanations,
+- delayed or missing incident reporting because users are unsure what happened, what evidence to keep, and what legal path to follow.
+
+At the same time, legal references such as the Information Technology Act, 2063 and newer digital security-related provisions are not always easy to interpret for non-legal audiences. Users often need clear, context-aware, and locally relevant explanations rather than generic global cyber tips.
 
 This project solves that by:
 - grounding responses in a domain knowledge base,
 - selecting tools based on user intent (awareness vs legal/penalty),
+- responding bilingually (English and Nepali) based on user preference,
 - generating clear responses with source references,
 - evaluating quality using a gold-style scenario set, manual labels, and a judge model.
 
 ## Key Features
 
 - Multi-tool agent with intent-based tool selection
+- Bilingual response capability (English and Nepali)
 - Knowledge base retrieval from local domain documents
 - Structured response metadata (sources, tools used, context docs, timing)
 - Monitoring with Logfire spans, token/cost estimation, and user feedback hooks

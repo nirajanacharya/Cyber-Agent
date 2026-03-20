@@ -10,7 +10,7 @@ from datetime import datetime
 from openai import AsyncOpenAI
 
 from ..tools.base import CyberSachetTools
-from .prompts import SYSTEM_PROMPT, get_user_message
+from .prompts import SYSTEM_PROMPT, get_user_message, detect_response_language
 from .tool_selector import select_tools_for_query
 from .query_executor import execute_tools
 from .context_builder import build_context
@@ -109,11 +109,19 @@ class CyberSachetAgent:
         )
         
         context, sources_used = build_context(search_results)
+
+        response_language = detect_response_language(user_question)
         
         user_message = get_user_message(context, user_question)
         
         answer = await generate_response(
-            self.client, self.system_prompt, user_message, model, temperature, verbose
+            self.client,
+            self.system_prompt,
+            user_message,
+            response_language,
+            model,
+            temperature,
+            verbose,
         )
         
         result = {

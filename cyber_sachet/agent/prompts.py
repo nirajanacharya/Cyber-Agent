@@ -1,5 +1,36 @@
 """System prompts for the agent."""
 
+import re
+
+
+def detect_response_language(user_question: str) -> str:
+    """Detect desired response language from user input.
+
+    Returns:
+        "nepali" when Devanagari Unicode text or likely Romanized Nepali
+        is detected, otherwise "english".
+    """
+    for char in user_question:
+        code_point = ord(char)
+        if 0x0900 <= code_point <= 0x097F:
+            return "nepali"
+
+    # Heuristic for Romanized Nepali (e.g., "malai", "tapai", "kasari").
+    # Require at least two known tokens to reduce false positives.
+    romanized_markers = {
+        "malai", "ma", "mero", "hamro", "tapai", "tapaiko", "timilai",
+        "timro", "hajur", "kasari", "kina", "k", "ke", "yo", "tyo",
+        "ho", "cha", "chha", "xa", "bhayo", "gareko", "garyo", "garna",
+        "sakchu", "sakdina", "sahayog", "samasya", "bujhina", "nepal",
+        "kanun", "surakshya", "suraksha", "harras", "harass", "garayo",
+    }
+    tokens = re.findall(r"[a-zA-Z]+", user_question.lower())
+    marker_count = sum(1 for token in tokens if token in romanized_markers)
+    if marker_count >= 2:
+        return "nepali"
+
+    return "english"
+
 SYSTEM_PROMPT = """You are Cyber Sachet, an AI assistant specializing in cyber security awareness 
 and Nepal's cyber laws (IT Act 2063, Digital Security Act 2024).
 
@@ -37,10 +68,20 @@ def get_user_message(context: str, user_question: str) -> str:
         user_question: User's question
     
     Returns:
-        Formatted user message
+        Formatted user message with response language instruction
     """
+    response_language = detect_response_language(user_question)
+    language_instruction = (
+        "Respond fully in Nepali (Devanagari script)."
+        if response_language == "nepali"
+        else "Respond fully in English."
+    )
+
     return f"""Based on the following context from cyber security documents and Nepal's cyber laws, 
 please answer the user's question comprehensively.
+
+RESPONSE LANGUAGE REQUIREMENT:
+{language_instruction}
 
 CONTEXT DOCUMENTS:
 {context}

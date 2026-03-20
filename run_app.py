@@ -13,8 +13,13 @@ if __name__ == "__main__":
 
     
 
-    subprocess.run([
-        sys.executable, "-m", "streamlit", "run",
-        "streamlit_app/app.py",
-        "--server.headless", "true"
-    ])
+    try:
+        completed = subprocess.run([
+            sys.executable, "-m", "streamlit", "run",
+            "streamlit_app/app.py",
+            "--server.headless", "true"
+        ])
+        raise SystemExit(completed.returncode)
+    except KeyboardInterrupt:
+        print("\nStreamlit app stopped by user.")
+        raise SystemExit(0)

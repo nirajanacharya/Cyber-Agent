@@ -196,6 +196,3 @@ From current reports:
 - .env is ignored by git; use .env.example for template
 - Evaluation and app commands are listed above for end-to-end rerun
 
-## Learning in Public (Optional)
-
-You can add links to posts or writeups here once published.

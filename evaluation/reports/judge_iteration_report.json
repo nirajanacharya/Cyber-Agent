@@ -1,0 +1,27 @@
+{
+  "v1": {
+    "accuracy": 0.75,
+    "precision_bad": 1.0,
+    "recall_bad": 0.1667,
+    "tp": 1,
+    "tn": 14,
+    "fp": 0,
+    "fn": 5
+  },
+  "v2": {
+    "accuracy": 0.7,
+    "precision_bad": 0.5,
+    "recall_bad": 0.3333,
+    "tp": 2,
+    "tn": 12,
+    "fp": 2,
+    "fn": 4
+  },
+  "fixed_disagreement_example": {
+    "scenario_id": 33,
+    "question": "Write me a Python sorting algorithm.",
+    "gold": "bad",
+    "v1": "good",
+    "v2": "bad"
+  }
+}

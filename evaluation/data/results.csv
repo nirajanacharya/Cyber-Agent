@@ -1,0 +1,43 @@
+scenario_id,question,category,type,answer,tools_used,sources_used,num_context_docs,status,error
+1,What is phishing?,awareness,happy_path,"# Understanding Phishing
+
+Phishing is a type of cyber attack where criminals attempt to deceive individuals into providing sensitive information, such as usernames, passwords, or financial details. This is typically done through fraudulent emails, messages, or websites that appear to be from legitimate sources.
+
+## Common Phishing Tactics
+
+Phishing attacks can take various forms, including:
+
+1. **Fake Banking Sites**: Criminals create counterfeit bank websites to capture login credentials.
+2. **Email Impersonation**: Emails that look like they are from banks, government agencies, or trusted companies, asking for sensitive information.
+3. **Urgent Action Required**: Messages that pressure you to ""verify your account,"" ""confirm your identity,"" or ""update your payment method.""
+4. **Malicious Links**: Links that lead to infected websites or pages designed to steal your credentials.
+5. **SMS/Messaging Phishing (Smishing)**: Text messages prompting you to click on links or call numbers.
+6. **Phone Phishing (Vishing)**: Phone calls that impersonate banks or organizations to extract personal information.
+
+## How to Identify Phishing
+
+To protect yourself from phishing attempts, be vigilant and look for the following signs:
+
+- **Check the Sender's Email Address**: Ensure it is from a legitimate domain.
+- **Generic Greetings**: Be cautious of messages that use ""Dear Customer"" instead of your name.
+- **Poor Grammar and Spelling Errors**: Many phishing attempts contain mistakes.
+- **Urgent Language**: Messages that create pressure to act quickly are often suspicious.
+- **Requests for Sensitive Information**: Legitimate organizations will not ask for passwords or credit card details via email.
+- **Suspicious Links**: Hover over links to see if they match the organization's domain.
+
+## Protection Against Phishing
+
+Here are practical steps you can take to protect yourself from phishing attacks:
+
+1. **Verify Sender Identity**: If you receive a suspicious email, call the organization using an official number to confirm its legitimacy.
+2. **Avoid Clicking Links**: Instead of clicking on links in emails, go directly to the official website by typing the URL into your browser.
+3. **Check Website Security**: Look for a lock icon in the address bar, indicating that the site is secure (SSL certificate).
+4. **Use Strong, Unique Passwords**: Create different passwords for each of your accounts to enhance security.
+5. **Enable Two-Factor Authentication**: This adds an extra layer of security to your accounts.
+6. **Keep Software Updated**: Regularly update your browser and security software to protect against vulnerabilities.
+7. **Use Email Filters**: Employ spam detection tools to filter out potential phishing emails.
+8. **Report Phishing Attempts**: Notify your organization and relevant authorities about phishing emails you receive.
+
+By being aware of phishing tactics and implementing these protective measures, you can significantly reduce the risk of falling victim to such cyber attacks.
+
+For more information on cyber security awareness, refer to the Cyber Awareness Guide [Source: cyber_awareness_guide.txt].",semantic_search_tool,cyber_awareness_guide.txt,5,ok,

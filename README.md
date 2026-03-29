@@ -2,6 +2,14 @@
 
 Cyber Sachet is a bilingual AI assistant focused on cyber security awareness and Nepal cyber law guidance. It answers user questions in English and Nepali with retrieval-augmented generation (RAG), cites sources from a local knowledge base, tracks usage with monitoring, and includes a full evaluation pipeline with human labels and an LLM judge.
 
+## Live Cloud Deployment (For Evaluation)
+
+This project is deployed and publicly accessible on Streamlit Cloud:
+
+- Live App: https://nepalicyberagent.streamlit.app/
+
+Evaluators can use this URL directly to test the deployed system without running the project locally.
+
 ## Problem Statement: Current Condition in Nepal
 
 Nepal is experiencing rapid digital adoption through smartphones, social media, digital payments, online services, and remote communication. This has improved access and convenience, but it has also expanded the cyber risk surface for everyday users, students, small businesses, and first-time internet users.
@@ -115,6 +123,14 @@ uv sync
 ```
 
 ## Run the Main App
+
+### Deployed Version
+
+Use the hosted app:
+
+- https://nepalicyberagent.streamlit.app/
+
+### Local Version
 
 ```powershell
 python run_app.py

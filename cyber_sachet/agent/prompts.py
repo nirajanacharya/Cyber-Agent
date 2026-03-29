@@ -15,8 +15,7 @@ def detect_response_language(user_question: str) -> str:
         if 0x0900 <= code_point <= 0x097F:
             return "nepali"
 
-    # Heuristic for Romanized Nepali (e.g., "malai", "tapai", "kasari").
-    # Require at least two known tokens to reduce false positives.
+ 
     romanized_markers = {
         "malai", "ma", "mero", "hamro", "tapai", "tapaiko", "timilai",
         "timro", "hajur", "kasari", "kina", "k", "ke", "yo", "tyo",

@@ -58,7 +58,7 @@ def check_setup():
     else:
         print("   ⏭️  Skipped (prerequisites not met)")
     
-    # Summary
+  
     print(f"\n{'='*60}")
     print(f"Results: {checks_passed}/{total_checks} checks passed")
     print(f"{'='*60}")

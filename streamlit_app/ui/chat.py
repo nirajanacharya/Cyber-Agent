@@ -32,32 +32,33 @@ class ChatInterface:
             st.markdown(content)
     
     @staticmethod
-    def display_assistant_message_streaming(result: dict):
+    def display_assistant_message_streaming(result: dict, in_chat_container: bool = False):
         """Display assistant message with streaming effect."""
+        if in_chat_container:
+            ChatInterface._stream_assistant_content(result)
+            return
+
         with st.chat_message("assistant"):
-           
-            message_placeholder = st.empty()
-            
-            
-            full_response = result['answer']
-            displayed_response = ""
-            
-            
-            words = full_response.split()
-            
-            for i, word in enumerate(words):
-                displayed_response += word + " "
-                
-                message_placeholder.markdown(displayed_response + "▌")
-                
-                time.sleep(STREAMING_SPEED)
-            
-          
-            message_placeholder.markdown(full_response)
-            
-            
-            if result.get('sources_used'):
-                ChatInterface._render_sources(result)
+            ChatInterface._stream_assistant_content(result)
+
+    @staticmethod
+    def _stream_assistant_content(result: dict):
+        """Stream assistant response text and sources."""
+        message_placeholder = st.empty()
+
+        full_response = result['answer']
+        displayed_response = ""
+        words = full_response.split()
+
+        for word in words:
+            displayed_response += word + " "
+            message_placeholder.markdown(displayed_response + "▌")
+            time.sleep(STREAMING_SPEED)
+
+        message_placeholder.markdown(full_response)
+
+        if result.get('sources_used'):
+            ChatInterface._render_sources(result)
     
     @staticmethod
     def _render_sources(result: dict):
@@ -70,10 +71,8 @@ class ChatInterface:
     @staticmethod
     def process_query(agent, query: str, session_id: str, verbose: bool = False):
         """Process user query with agent."""
-        with st.spinner("Analyzing your question..."):
-            result = asyncio.run(agent.query(
-                user_question=query,
-                session_id=session_id,
-                verbose=verbose
-            ))
-        return result
+        return asyncio.run(agent.query(
+            user_question=query,
+            session_id=session_id,
+            verbose=verbose
+        ))

@@ -59,17 +59,17 @@ def main():
     Header.render()
     
     
+    messages = SessionManager.get_messages()
+    
     Sidebar.render(
         tracker=tracker,
         session_id=session_id,
+        messages=messages,
         on_clear_chat=lambda: SessionManager.clear_messages() or agent.clear_history()
     )
     
     
     feedback_widget = FeedbackWidget(feedback_collector, session_id)
-    
-   
-    messages = SessionManager.get_messages()
     
     
     if len(messages) == 0:
@@ -86,10 +86,12 @@ def main():
         ChatInterface.display_user_message(user_input)
         
         
-        result = ChatInterface.process_query(agent, user_input, session_id)
-        
-       
-        ChatInterface.display_assistant_message_streaming(result)
+        with st.chat_message("assistant"):
+            with st.status("Cyber Sachet is thinking...", expanded=False) as status:
+                result = ChatInterface.process_query(agent, user_input, session_id)
+                status.update(label="Cyber Sachet is responding...", state="running")
+
+            ChatInterface.display_assistant_message_streaming(result, in_chat_container=True)
         
        
         query_id = str(uuid.uuid4())
